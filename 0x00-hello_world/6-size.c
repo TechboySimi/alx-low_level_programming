@@ -12,6 +12,7 @@ int main(void)
 	double d;
 	float f;
 	long double lf;
+
 	printf("The size of a char is: %lu.\n", (unsigned long)sizeof(c));
 	printf("The size of a int is: %lu.\n", (unsigned long)sizeof(i));
 	printf("The size of a double is: %lu.\n", (unsigned long)sizeof(d));
