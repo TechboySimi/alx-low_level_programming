@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *  * main - print numbers from 00 to 99.
- *  (*
- *   * Return: 0 on success
+ * main - print numbers from 00 to 99.
+ *
+ * Return: 0 on success
 */
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 			{
 				putchar(i);
 				putchar(j);
-				if (i == '8' && i == '9')
+				if (i == '8' && j == '9')
 				{
 					putchar('\n');
 				}
