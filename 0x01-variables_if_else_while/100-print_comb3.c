@@ -26,10 +26,7 @@ int main(void)
 			}
 			j++;
 		}
-		if (j >= '9')
-		{
-			j = '0';
-		}
+		j = '0';
 		i++;
 	}
 	return (0);
