@@ -1,6 +1,7 @@
-#include <holberton.h>
+#include "holberton.h"
+
 /**
- * main - prints the string "Holberton" from a character array.
+ * main - prints the string "Holberton" from a character array
  * Return: 0 on success.
  */
 int main(void)
@@ -8,9 +9,9 @@ int main(void)
 	char c[] = "Holberton";
 	int i;
 
-	for (i=0; i<9; i++)
+	for (i = 0; i < 9; i++)
 	{
-		_Putchar(c[i]);
+		_putchar(c[i]);
 	}
 	_putchar('\n');
 	return (0);
