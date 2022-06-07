@@ -1,16 +1,17 @@
-#include "main.h"
+include "main.h"
 /**
- * print_alphabet - prints the english alphabet from a-z.
- * Return: Always 0
+ * print_alphabet - This is a function that prints a string
+ * Description: This function prints /
+ * the alphabet in lowercase
+ * Return: Returns (0)
  */
-int main(void)
+void print_alphabet(void)
 {
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
+       int i;
+       
+       for (i='a';i <='z'; i++)
+       {
+	       _putchar(i);
+       }
 	_putchar('\n');
-	return (0);
 }
