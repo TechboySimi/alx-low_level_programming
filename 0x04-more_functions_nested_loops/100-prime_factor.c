@@ -14,5 +14,5 @@ int main(void)
 			n /= i;
 	}
 	printf("%lu\n", n);
-	retrun (0);
+	return (0);
 }
