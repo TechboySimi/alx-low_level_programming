@@ -5,10 +5,10 @@
  *
  * @dest: an input string
  * @src: an input string
- * @: an input integer 
+ * @n: an input integer
  * Return: A pointer to the resulting string
  */
-char *_strncat(char *dest, char *src, int n)
+char *strncat(char *dest, char *src, int n)
 {
 	int coun = 0;
 	int counter = 0;
