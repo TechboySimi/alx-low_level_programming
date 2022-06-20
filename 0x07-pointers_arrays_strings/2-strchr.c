@@ -1,28 +1,20 @@
 #include "main.h"
 
 /**
- * _strspn - count in bytes how many character are matched
- *
- * @s: string being analysed 'till the space
- * @accept: characters being scanned
- * Return: unsigned int with the number in bytes of the match
+ * _strchr a function that locates a character in a string.
+ * @s: an input string to search in
+ * @c: an input character to locate into string s
+ * Return: returns pointer to c position
  */
-unsigned int _strspn(char *s, char *accept)
+char *_strchr(char *s, char c)
 {
-	int i;
-	int j = 0;
-	unsigned int n = 0;
-
-	while ((s[j] >= 'a' && s[j] <= 'z') || (s[j] >= 'A' && s[j] <= 'Z'))
+	while (*s)
 	{
-		for (i = 0; accept[i] != '\0'; i++)
-		{
-			if (accept[i] == s[j])
-			{
-				n++;
-			}
-		}
-		j++;
+		if (c == *s)
+			return (s);
+		s++;
 	}
-	return (n);
+	if (c == *s)
+		return (s);
+	return (NULL);
 }
