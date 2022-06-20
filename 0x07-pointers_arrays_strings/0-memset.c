@@ -11,15 +11,12 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int counter = 0;
-/* while counter is less than n bytes given in main.c
- */
-	while (counter < n)
-	{
-		/*s position should raise and be overwritten */
-		s[counter] = b;
-		counter++;
-	}
+	char *start = s;
 
-	return (s);
+	while (n--)
+	{
+		*s = b;
+		s++;
+	}
+	return (start);
 }
