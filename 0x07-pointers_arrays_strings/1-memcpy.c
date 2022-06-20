@@ -3,8 +3,8 @@
 /**
  * _memcpy - function to copy n bytes of the pointer src
  *
- * @dest: destination memory area where the string copied is going to be 
- * @src: string source that is gonna be copied n bytes
+ * @dest: destination memory area where the string copied is going to be
+ * * @src: string source that is gonna be copied n bytes
  * @n: number of bytes to be copied
  * Return: destination pointer
  */
