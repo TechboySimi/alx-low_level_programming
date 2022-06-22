@@ -45,6 +45,7 @@ int aux_palin(char *s, int i, int l)
  *
  * @s: pointer to string
  * Return: the result on aux_palin
+ *
  */
 int is_palindrome(char *s)
 {
