@@ -9,7 +9,7 @@
  */
 int comparison(int n, int i)
 {
-	 (i * i))
+	if (n == (i * i))
 	{
 		return (i);
 	}
