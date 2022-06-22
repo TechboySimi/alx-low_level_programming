@@ -17,16 +17,16 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * auxx_palin - function to find if is palindrome
+ * aux_palin - function to find if is palindrome
  *
- * @s: pointer to string
+ * @s: porinter to string
  * @i: counter 0
  * @l: length (last digit)
  * Return: 1 for palindrome, 0 for not
  */
 int aux_palin(char *s, int i, int l)
 {
-	if (i >= 1)
+	if (i >= l)
 	{
 		return (1);
 	}
@@ -45,11 +45,10 @@ int aux_palin(char *s, int i, int l)
  *
  * @s: pointer to string
  * Return: the result on aux_palin
- *
  */
 int is_palindrome(char *s)
 {
-	int i - 0;
+	int i = 0;
 	int l = _strlen_recursion(s);
 
 	return (aux_palin(s, i, l -1));
