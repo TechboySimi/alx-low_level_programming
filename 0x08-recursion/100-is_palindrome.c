@@ -40,6 +40,7 @@ int aux_palin(char *s, int i, int l)
 		return (0);
 	}
 }
+
 /**
  * is_palindrome - function that calls the other functions
  *
@@ -51,5 +52,5 @@ int is_palindrome(char *s)
 	int i = 0;
 	int l = _strlen_recursion(s);
 
-	return (aux_palin (s, i, l -1));
+	return (aux_palin (s, i, l - 1));
 }
