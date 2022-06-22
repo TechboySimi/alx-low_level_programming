@@ -9,13 +9,13 @@
  */
 int comparison(int n, int i)
 {
-	if (n == (i * i))
+	 (i * i))
 	{
 		return (i);
 	}
 	if (n < (i * i))
 	{
-		return(-1);
+		return (-1);
 	}
 	return (comparison(n, i + 1));
 }
