@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * comparison - function where the comparision is being done 
+ * comparison - function where the comparision is being done
  *
  * @n: value that they give us to get the arithmetic
  * @i: value that we will find doing the multiplication
