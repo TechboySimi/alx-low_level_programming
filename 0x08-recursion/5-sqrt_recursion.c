@@ -23,7 +23,7 @@ int comparison(int n, int i)
 /**
  * _sqrt_recursion - is the function of the square root
  *
- * @n: value that they give us to get the root 
+ * @n: value that they give us to get the root
  * Return: the result of the recursion in tmp function
  */
 int _sqrt_recursion(int n)
