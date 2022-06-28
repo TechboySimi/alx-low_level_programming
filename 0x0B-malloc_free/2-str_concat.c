@@ -51,5 +51,5 @@ char *str_concat(char *s1, char *s2)
 	for (j = 0; j <= max; k++, j++)
 		s[k] = s2[j];
 
-	return(s);
+	return (s);
 }
