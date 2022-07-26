@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
-	file_to = open(argv[2], O_WRONGLY | O_TRUNC | O_CREAT< 0664);
+	file_to = open(argv[2], O_WRONGLY | O_TRUNC | O_CREAT, 0664);
 	while (read_from > 0)
 	{
 		read_from = read(file_from, buffer, 1024);
