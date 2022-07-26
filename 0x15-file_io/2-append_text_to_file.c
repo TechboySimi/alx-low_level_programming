@@ -3,7 +3,7 @@
  * append_text_to_file - append text
  * @filename: name of a file
  * @text_content: text content
- * Return: 1 on succeed and -1 if failed
+ * Return: 1 on succed and -1 if failed
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
@@ -17,7 +17,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (fd == -1)
 		return (-1);
 
-	if (text_content == NUL)
+	if (text_content == NULL)
 		return (1);
 
 	while (text_content[lenght])
