@@ -1,15 +1,13 @@
 #include "main.h"
-
 /**
  * create_file - create a file with specific permissions
  * @filename: name of the file
  * @text_content: content of the text file
  * Return: 1 succeed, -1 failed
  */
-
 int create_file(const char *filename, char *text_content)
 {
-	int fd, err, length = 0;
+	int fd, err, lenght = 0;
 
 	if (filename == NULL)
 		return (-1);
@@ -22,10 +20,10 @@ int create_file(const char *filename, char *text_content)
 	if (text_content == NULL)
 		return (-1);
 
-	while (text_content[length])
-		length++;
+	while (text_content[lenght])
+		lenght++;
 
-	err = write(fd, text_content, length);
+	err = write(fd, text_content, lenght);
 	if (err == -1)
 		return (-1);
 
